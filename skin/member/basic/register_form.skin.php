@@ -54,6 +54,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
         <table>
         <caption>개인정보 입력</caption>
         <tbody>
+
+        <!-- '이름' 항목은 불필요하여 제거함.
         <tr>
             <th scope="row"><label for="reg_mb_name">이름<strong class="sound_only">필수</strong></label></th>
             <td>
@@ -84,6 +86,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
                 <?php } ?>
             </td>
         </tr>
+        -->
         <?php if ($req_nick) {  ?>
         <tr>
             <th scope="row"><label for="reg_mb_nick">닉네임<strong class="sound_only">필수</strong></label></th>
